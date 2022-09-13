@@ -1,6 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-	
-})
 input.onGesture(Gesture.Shake, function () {
     Random_Number = randint(0, 3)
     if (Random_Number == 0) {
@@ -16,7 +13,5 @@ input.onGesture(Gesture.Shake, function () {
 })
 let Random_Number = 0
 basic.showString("Ask a Question!")
+basic.clearScreen()
 basic.showNumber(8)
-basic.forever(function () {
-	
-})
